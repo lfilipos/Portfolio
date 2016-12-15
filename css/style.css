@@ -1,0 +1,32 @@
+nav{
+  background-color: #1D2D44;
+  padding-top: 10px;
+  height: 80px;
+}
+.btn{
+  background-color: #BFD7EA;
+  color: #0B3954;
+}
+.header-logo{
+  height: 50px;
+}
+.splash{
+  height: 500px;
+  background-color: #E8F1F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mobile-menu-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+.splash-button{
+  height: 25px;
+  border: none;
+  background-color:#E4572E;
+  color: white;
+}
