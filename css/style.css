@@ -112,3 +112,36 @@ width:110px;
   width: 40%;
   animation-duration: 1.5s;
 }
+.experience{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exp-wrapper{
+  width:80%;
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.experience-node{
+  width: 40%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+.experience-date {
+  background:#8FBBA2;
+  line-height: 40px;
+  color: white;
+  padding-left: 20px;
+}
+.experience-content{
+  padding: 20px;
+}
+.exp-content-company a h5{
+  margin: 0px;
+}
+.exp-content-position h6{
+  margin-top: 0px;
+}
