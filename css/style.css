@@ -1,63 +1,92 @@
-.hero{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (min-width:992px){
+  .mobile{
+    display: none;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-title{
+    font-size: 1.5em;
+  }
+  .hero-row{
+    display: flex;
+    justify-content: space-around;
+  }
+  .services{
+    width: 35%;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  .service-items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .svc-item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .svc-item img{
+    height: 60px;
+
+  }
+  .contact{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
+  .contact-items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  .con-item img{
+    height: 50px;
+  }
+  #luke-main{
+    height:450px;
+  }
+  .org-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .org-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .org-item img{
+    height: 75px;
+  }
+  .org-name{
+    font-weight: bold;
+  }
+  .org-title{
+    font-style: italic;
+  }
 }
-.hero-row{
-  display: flex;
-  justify-content: space-around;
-}
-.services{
-  width: 35%;
-  padding-left: 30px;
+
+@media (min-width:600px) and (max-width:992px){
 
 }
-.service-items{
-  display: flex;
-  flex-wrap: wrap;
-}
-.svc-item{
-  width: 30%;
-}
-.svc-item img{
-  height: 60px;
 
+@media (max-width:600px){
+  .desktop{
+    display: none;
+  }
+  #luke-main{
+    height: 400px;
+  }
 }
-.contact{
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  padding-right: 30px;
+body *{
+  font-weight: lighter;
 }
-.contact-items{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 50px;
-}
-.con-item img{
-  height: 50px;
-}
-#luke-main{
-  height:450px;
-}
-.org-items{
-  display: flex;
-  justify-content: space-around;
-}
-.org-item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.org-item img{
-  height: 75px;
-}
-.org-name{
-  font-weight: bold;
-}
-.org-title{
-  font-style: italic;
-}
+
 /*Delays*/
 .first-delay{
   -webkit-animation-delay: 4s;
@@ -67,6 +96,9 @@
 }
 .third-delay{
   -webkit-animation-delay: 5.5s;
+}
+.fourth-delay{
+  -webkit-animation-delay: 7.5s;
 }
 .marketing{
   -webkit-animation-delay: 6s;
