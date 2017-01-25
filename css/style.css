@@ -1,147 +1,103 @@
-nav{
-  background-color: #1D2D44;
-  padding-top: 10px;
-  height: 80px;
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.btn{
-  background-color: #BFD7EA;
-  color: #0B3954;
+.hero-row{
+  display: flex;
+  justify-content: space-around;
 }
-.header-logo{
+.services{
+  width: 35%;
+  padding-left: 30px;
+
+}
+.service-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+.svc-item{
+  width: 30%;
+}
+.svc-item img{
+  height: 60px;
+
+}
+.contact{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.contact-items{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.con-item img{
   height: 50px;
 }
-.splash{
-  height: 500px;
-  background-color: #E8F1F2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#luke-main{
+  height:450px;
 }
-
-.mobile-menu-item{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 100px;
-}
-.splash-button{
-  height: 25px;
-  border: none;
-  background-color:#E4572E;
-  color: white;
-}
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-width:110px;
-	font-weight:bold;
-	font-size:13px;
-	color:#ffffff;
-	background:#6adcfa;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
-}
-.skills-section{
+.org-items{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
-.tech-skills, .design-skills, .marketing-skills,
-.human-skills{
-  width: 40%;
-  animation-duration: 1.5s;
-}
-.experience{
+.org-item{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.exp-wrapper{
-  width:80%;
-  display: flex;
-  background-color: red;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.org-item img{
+  height: 75px;
 }
-.experience-node{
-  width: 40%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: white;
+.org-name{
+  font-weight: bold;
 }
-.experience-date {
-  background:#8FBBA2;
-  line-height: 40px;
-  color: white;
-  padding-left: 20px;
+.org-title{
+  font-style: italic;
 }
-.experience-content{
-  padding: 20px;
+/*Delays*/
+.first-delay{
+  -webkit-animation-delay: 4s;
 }
-.exp-content-company a h5{
-  margin: 0px;
+.second-delay{
+  -webkit-animation-delay: 5.5s;
 }
-.exp-content-position h6{
-  margin-top: 0px;
+.third-delay{
+  -webkit-animation-delay: 5.5s;
+}
+.marketing{
+  -webkit-animation-delay: 6s;
+}
+.web-dev{
+  -webkit-animation-delay: 6.1s;
+}
+.biz{
+  -webkit-animation-delay: 6.2s;
+}
+.design{
+  -webkit-animation-delay: 6.3s;
+}
+.sales{
+  -webkit-animation-delay: 6.4s;
+}
+.speaking{
+  -webkit-animation-delay: 6.5s;
+}
+.email{
+  -webkit-animation-delay: 6s;
+}
+.facebook{
+  -webkit-animation-delay: 6.1s;
+}
+.twitter{
+  -webkit-animation-delay: 6.2s;
+}
+.instagram{
+  -webkit-animation-delay: 6.3s;
+}
+.linkedin{
+  -webkit-animation-delay: 6.4s;
 }
